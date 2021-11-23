@@ -17,3 +17,6 @@ function fetchSimpsonJSON() {
       
   }
   fetchSimpsonJSON() ;
+  
+  document.getElementById("button").onclick=fetchSimpsonJSON;
+  
